@@ -40,20 +40,25 @@ Meteor.startup(() => {
       }
 
       Availabilities = new Mongo.Collection('availabilities');
+      Users = new Mongo.Collection('users');
 
       var availabilitiesJson = require('../db/user_availabilities.json');
+      var usersJson = require('../db/users.json');
 
       availabilitiesJson.forEach(function(element) {
-        element.start_time = timeToInt(element.start_time)
-        element.end_time = timeToInt(element.end_time)
+        element.start_time = timeToInt(element.start_time);
+        element.end_time = timeToInt(element.end_time);
         if (element.event_type == "Timeoff") {
-          element.start_date = new Date(Date.parse(element.start_date))
-          element.end_date = new Date(Date.parse(element.end_date))
+          element.start_date = new Date(Date.parse(element.start_date));
+          element.end_date = new Date(Date.parse(element.end_date));
         }
 
-        Availabilities.insert(element)
+        Availabilities.insert(element);
       })
 
+      usersJson.forEach(function(element) {
+        Users.insert(element);
+      })
 
       this.response.setHeader('Content-Type','application/json');
       this.response.end(JSON.stringify({"status": 200, response: "OK"}));
