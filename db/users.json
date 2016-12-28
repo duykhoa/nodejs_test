@@ -1,0 +1,74 @@
+[
+  {
+    "_id" : "1",
+    "email_address" : "jane.doe@gmail.com",
+    "first_name" : "Jane",
+    "last_name" : "Doe",
+    "phone_number" : "+6591263407",
+    "status" : "Approved",
+    "created_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "updated_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "personal_information" : {
+      "gender" : "Female",
+      "nationality" : "Singapore Citizen",
+      "NRIC_Number" : "S8271082G",
+      "race" : "Indian",
+      "date_of_birth" : ISODate("1965-03-18T00:00:00.000+0000"),
+      "own_smart_phone" : "Yes",
+      "fluent_languages" : [
+        "English",
+        "Malay",
+        "Tamil",
+        "Hokkien"
+      ],
+      "city" : "Singapore",
+      "rating" : "4.4"
+    }
+  },
+  {
+    "_id" : "2",
+    "email_address" : "cara",
+    "first_name" : "Cara",
+    "last_name" : "Bui",
+    "phone_number" : "123",
+    "status" : "Approved",
+    "created_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "updated_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "personal_information" : {
+      "gender" : "Female",
+      "nationality" : "VietNam",
+      "NRIC_Number" : "S8271082G",
+      "race" : "VietNam",
+      "date_of_birth" : ISODate("1965-03-18T00:00:00.000+0000"),
+      "own_smart_phone" : "Yes",
+      "fluent_languages" : [
+        "English"
+      ],
+      "city" : "Singapore",
+      "rating" : "3"
+    }
+  },
+  {
+    "_id" : "3",
+    "email_address" : "kevin@gmail.com",
+    "first_name" : "Kevin",
+    "last_name" : "Tran",
+    "phone_number" : "123",
+    "status" : "Approved",
+    "created_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "updated_at" : ISODate("2016-12-18T06:21:36.380+0000"),
+    "personal_information" : {
+      "gender" : "Male",
+      "nationality" : "VietNam",
+      "NRIC_Number" : "S8271082G",
+      "race" : "VietNamese",
+      "date_of_birth" : ISODate("1965-03-18T00:00:00.000+0000"),
+      "own_smart_phone" : "Yes",
+      "fluent_languages" : [
+        "English"
+      ],
+      "city" : "Singapore",
+      "rating" : "4.5"
+    }
+  }
+]

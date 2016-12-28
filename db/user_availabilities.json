@@ -1,0 +1,271 @@
+[
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Monday",
+    "event_type" : "Available",
+    "start_time" : "8:00am",
+    "end_time" : "6:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Tuesday",
+    "event_type" : "Available",
+    "start_time" : "12:30am",
+    "end_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Wednesday",
+    "event_type" : "Available",
+    "start_time" : "6:30am",
+    "end_time" : "1:30am"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Thursday",
+    "event_type" : "Unavailable",
+    "end_time" : "5:00am"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Friday",
+    "event_type" : "Unavailable",
+    "start_time" : "9:00am",
+    "end_time" : "10:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Saturday",
+    "event_type" : "Unavailable",
+    "end_time" : "8:00pm",
+    "start_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Sunday",
+    "event_type" : "Unavailable"
+  },
+  {
+
+    "user_id" : "1",
+    "event_type" : "Timeoff",
+    "start_date" : "01-01-2017",
+    "end_date" : "01-08-2017"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Monday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "1:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Monday",
+    "event_type" : "Break",
+    "start_time" : "6:00pm",
+    "end_time" : "7:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Tuesday",
+    "event_type" : "Break",
+    "start_time" : "9:00am",
+    "end_time" : "12:30pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Wednesday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "2:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Saturday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "1",
+    "day_of_week" : "Friday",
+    "event_type" : "Break",
+    "start_time" : "12:30pm",
+    "end_time" : "6:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Monday",
+    "event_type" : "Available",
+    "start_time" : "8:00am",
+    "end_time" : "6:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Tuesday",
+    "event_type" : "Available",
+    "start_time" : "12:30am",
+    "end_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Wednesday",
+    "event_type" : "Available",
+    "start_time" : "6:30am",
+    "end_time" : "1:30am"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Thursday",
+    "event_type" : "Unavailable",
+    "end_time" : "5:00am"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Friday",
+    "event_type" : "Unavailable",
+    "start_time" : "9:00am",
+    "end_time" : "10:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Saturday",
+    "event_type" : "Unavailable",
+    "end_time" : "8:00pm",
+    "start_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Sunday",
+    "event_type" : "Unavailable"
+  },
+  {
+
+    "user_id" : "2",
+    "event_type" : "Timeoff",
+    "start_date" : "2017-01-01",
+    "end_date" : "2017-08-01"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Monday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "1:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Monday",
+    "event_type" : "Break",
+    "start_time" : "6:00pm",
+    "end_time" : "7:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Tuesday",
+    "event_type" : "Break",
+    "start_time" : "9:00am",
+    "end_time" : "12:30pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Wednesday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "2:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Saturday",
+    "event_type" : "Break",
+    "start_time" : "11:00am",
+    "end_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "2",
+    "day_of_week" : "Friday",
+    "event_type" : "Break",
+    "start_time" : "12:30pm",
+    "end_time" : "6:00pm"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Monday",
+    "event_type" : "Unavailable",
+    "start_time" : "8:00am",
+    "end_time" : "6:00pm"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Tuesday",
+    "event_type" : "Unavailable",
+    "start_time" : "12:30am",
+    "end_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Wednesday",
+    "event_type" : "Unavailable",
+    "start_time" : "6:30am",
+    "end_time" : "1:30am"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Thursday",
+    "event_type" : "Unavailable",
+    "end_time" : "5:00am"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Friday",
+    "event_type" : "Unavailable",
+    "start_time" : "9:00am",
+    "end_time" : "10:00pm"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Saturday",
+    "event_type" : "Unavailable",
+    "end_time" : "8:00am",
+    "start_time" : "3:00pm"
+  },
+  {
+
+    "user_id" : "3",
+    "day_of_week" : "Sunday",
+    "event_type" : "Unavailable"
+  }
+]
