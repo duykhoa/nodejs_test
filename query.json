@@ -1,0 +1,40 @@
+[{
+  $match: {
+    "user_id": '1',
+    $and: [
+      {
+        $or: [{"day_of_week": { $in: ["Monday", "Tuesday"] } }, {"event_type": "Timeoff"} ],
+      },
+      {
+        $or: [
+          {
+            "event_type": 'Timeoff',
+            $or: [
+              { "start_date": { $gte: new Date("2016-12-26") }, "start_date": { $lte: new Date("2016-12-31") } },
+              { "start_date": { $lte: new Date("2016-12-26") }, "end_date": { $gte: new Date("2016-12-31") } }
+            ]
+          },
+          {
+            "event_type": "Available",
+            $or: [
+              { "start_time": { $gt: 50430 }, "end_time": { $lt: 50440 } }
+            ]
+          },
+          {
+            "event_type": "Break",
+            $and: [
+              { "start_time": { $lt: 50430 }, "end_time": { $lt: 50440 } }
+            ]
+          },
+          {
+            "event_type": "Unavailable",
+            $and: [
+              { "start_time": { $lt: 50430 }, "end_time": { $gt: 50440 } }
+            ]
+          },
+        ]
+      }
+    ]
+  }
+}
+]
