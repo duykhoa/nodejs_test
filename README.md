@@ -3,7 +3,7 @@
 1. Clone the application
 - `meteor`
 - `curl localhost:3000/seed` to create seed data
-- `curl -XPOST --data="userId=1&start_date=2017-01-01&end_date=2017-01-02&start_time='9:00PM'&end_time='10:00PM'&days=Monday,Tuesday" localhost:3000/check_available`
+- `curl -XPOST --data "userId=1&start_date=2017-01-01&end_date=2017-01-02&start_time=9:00PM&end_time=10:00PM&days=Monday,Tuesday" localhost:3000/check_available`
 
 # Notes
 
