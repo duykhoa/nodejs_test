@@ -53,7 +53,7 @@ db.getCollection('availabilities').aggregate([{
 I tried to use MongoDB query for the first `basic` challenge, and it works with this code above.
 With this code, we don't need to transfer data from DB server to application server.
 
-To make it easier in Mongo, I converted the time (e.x "9:00 PM", "12:30 AM" to integer) when run seed file.
+To make it easier when querying in Mongo, I converted the time (e.x "9:00 PM", "12:30 AM") to integer before inserting data.
 
 # TODO
 
